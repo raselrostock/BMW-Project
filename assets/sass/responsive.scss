@@ -1,0 +1,538 @@
+
+@import 'libs/colours';
+@import 'libs/vars';
+@media only screen and (min-width: 1366px)
+{
+	body{
+		max-width:1366px;
+		margin: 0 auto;
+	}
+	.main-menu-area
+	{
+	    height: 100px;
+	    width: 1366px;
+	    z-index: 999;
+	}
+	.menu-toggle {
+		margin: 0;
+		padding:0;
+	    background-color: #fff;
+	    box-shadow: 0px 2px 8px #ddd;
+	    transition: .7s;
+	    position: absolute;
+	    width: 1366px;
+	    z-index: 9;
+	}
+}
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+	.banner-text-box p,.faq-text-box p{
+		font-weight: 16px;
+		line-height: 22px;
+	}
+	.banner-text-box h2,.faq-text-box h2,.bmw-prozess-box h2,.downloadPostArea h2,
+	.modal-header h2,.modal-footer h2{
+		font-size: 28px;
+	    line-height: 32px;
+	}
+	
+ 
+	.banner-text-box{
+	    margin-top: -50px;
+	    margin-left: 40px;
+	    margin-bottom: 50px;
+	}
+	.banner-text-box-data{
+	    padding: 20px!important;
+	   position:relative;
+	   margin-top: -$mspace;
+	}
+	.bmw-motorrad, .faq-motorrad {
+	    margin-left: 40px;
+	    float: left;
+	}
+	.bmw-motorrad-logo {
+    margin-top: 40px;
+	}
+	.bmw-prozess {
+    margin: $dspace 0;
+	}
+	.height-dTop {
+    height: $dspace;
+	}
+	.faqSection {
+    margin:$dspace 0;
+	}
+	.footer-left-menu{
+		text-align: center;
+	}
+	.footer-left-menu ul {
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+}
+	.bmw-motorrad, .faq-motorrad {
+    margin-top: 30px;
+    margin-left: 40px;
+	}
+	.footer-right-link {
+   // padding-top: 12px;
+    text-align: center;
+    }
+    .footer-right-link h4 {
+    text-align: center;
+    padding:0;
+	}
+
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	.banner-text-box-data p,.faq-text-box-data p{
+		font-weight: 16px;
+		line-height: 22px;
+	}
+
+	.banner-text-box-data h2,.faq-text-box-data h2,.bmw-prozess-box h2,.downloadPostArea h2,
+	.modal-header h2,.modal-footer h2{
+		font-size: 28px;
+	    line-height: 32px;
+	}
+	
+	.banner-text-box{
+	    margin-top: -50px;
+	    margin-left: 40px;
+	    margin-bottom: 50px;
+	}
+	.banner-text-box-data{
+	    padding: 20px!important;
+	   position:relative;
+	   margin-top: -$mspace;
+	}
+	.bmw-motorrad-logo {
+    margin-top: 40px;
+	}
+	.bmw-prozess {
+    margin: $mspace 0;
+	}
+	.height-dTop {
+    height: $mspace;
+	}
+	
+	.faqSection {
+    margin:$mspace 0;
+	}
+	/***********FOOTER**************/
+	.footer-left-menu{
+		text-align: center;
+	}
+	.footer-left-menu ul {
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+	}	
+	.footer-left-menu ul li{
+    float: none;
+    padding:0;
+    text-align: left;
+	}
+	.bmw-motorrad, .faq-motorrad {
+    margin-top: 30px;
+    margin-left: 40px;
+	}
+
+	.footer-logo {
+	    //margin-top: 40px;
+	    text-align: center;
+	}
+	.footer-right-link {
+		margin:0 auto;
+	   // padding-top: 12px;
+	    text-align: center;
+		}
+	.footer-right-link h4{
+		margin: 0;
+		text-align: center;
+		padding: 8px;
+	}
+  
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	/**********BANNER TOP************/
+	.banner-text-box p,.faq-text-box p{
+		font-weight: 16px;
+		line-height: 22px;
+	}
+
+	.banner-text-box h2,.faq-text-box h2,.bmw-prozess-box h2,.downloadPostArea h2,
+	.modal-header h2,.modal-footer h2{
+		font-size: 28px;
+	    line-height: 32px;
+	}
+	/*********FOOTER**************/
+	.footer-left-menu{
+		text-align: center;
+	}
+	.footer-left-menu ul {
+    //display: table-cell;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+	}
+	.footer-left-menu ul li{
+    float: none;
+    padding:0;
+    text-align: left;
+}
+	.footer-left-menu li {
+	    font-size: 16px;
+	    line-height: 22px;
+	}
+ 	.banner-text-box, .faq-text-box {
+    background: #fff;
+    margin-top: -20px;
+    margin-left: 40px;
+	}
+	.bmw-motorrad, .faq-motorrad {
+    margin-top: 30px;
+    margin-left: 40px;
+	}
+	.footer-right-link {
+	margin:0 auto;
+    //padding-top: 12px;
+    text-align: center;
+	}
+	.footer-right-link h4{
+		margin: 0;
+		text-align: center;
+		padding: 8px;
+	}
+
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	/*********  Menu ************/
+	.logo {
+       position: absolute;
+	    right: 20px;
+	    //top: 0;
+	    margin-top: -8px;
+	    z-index: 99;
+	}
+	.logo img {
+	     height: 80px;
+	    width: 73px;
+	    background-image: url('../images/logomob.jpg')
+	}
+	.menuInner {
+	    background-color: #E6E6E6;
+	}
+	.menu-toggle{
+		height: auto;
+	}
+	.menu-toggle ul li {
+    display:block;
+    padding:3px 0px;
+	}
+	.menu-toggle ul li a{
+    padding: 0px 8px;
+   }
+   .menu-toggle ul li a.active{
+    padding: 0px 8px;
+    color: $blue-1!important;
+   }
+   .menu-toggle ul li:nth-last-child(2), .menu-toggle ul li:last-child {
+    margin-left: 8px;
+    padding-right: 0;
+	}
+	 /************BANNER TOP**********/
+	.bannerArea-img{
+    background-position: 50% 50%;
+    
+	}
+	.banner-text-box{
+	    margin-top: -50px;
+	    margin-left: 40px;
+	    margin-bottom: 50px;
+	}
+	.banner-text-box-data{
+	    padding: 20px!important;
+	   position:relative;
+	   margin-top: -$mspace;
+	}
+	.bmw-motorrad-logo {
+    margin-top: 40px;
+	}
+	.banner-text-box p,.faq-text-box p{
+		font-weight: 16px;
+		line-height: 22px;
+	}
+
+	.banner-text-box h2,.faq-text-box h2,.bmw-prozess-box h2,.downloadPostArea h2,
+	.modal-header h2,.modal-footer h2{
+		font-size: 28px;
+	    line-height: 32px;
+	}
+	
+	.bmw-motorrad, .faq-motorrad {
+    margin-top: 30px;
+    margin-left: 40px;
+	}
+	.bmw-prozess {
+    margin: $mspace 0;
+	}
+		
+	.height-dTop {
+    height: $mspace;
+	}
+
+	/***************FAQ****************/
+	.faqPanel{
+		    height: auto;
+		    width: 100%;
+		    position:relative;
+		}
+	.faq-text-box {
+	    //margin-top: -50px;
+	    margin-left: 60px;
+	    //margin-bottom: 50px;
+	}
+	.faqSection-box h2{
+    font-size: 22px;
+    line-height: 26px;
+	}
+	.faq-text-box-data{
+		     background: #fff none repeat scroll 0 0;
+		    box-shadow: 0px 0px 8px #a69d90;
+		    padding: $spacehalf;
+		    position: absolute;
+		    position: absolute;
+		    right:0;
+		    bottom: $space;
+	}
+	.faqSection {
+    margin:$mspace 0;
+	}
+	.faq_question h1 {
+	    width: 93%;
+	}
+	.faq_answer {
+	    padding: 0 40px 0 0;
+	}
+	/***************MODAL***********/
+	.ImpressumClose, .HaftungsausschlussClose, .DatenschutzClose {
+    font-size: 30px;
+    line-height: 34px;
+    padding-right: 0px;
+    border: none;
+    margin-top: -28px;
+	}
+	.ImpressumClose:hover,.ImpressumClose:focus,
+	.HaftungsausschlussClose:hover,.HaftungsausschlussClose:focus,
+	.DatenschutzClose:hover,.DatenschutzClose:focus
+	 {
+	    padding-right: 0px;
+	}
+	/**********FOOTER***********/
+	.footer-left-menu{
+		text-align: center;
+	}
+	.footer-left-menu ul {
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+	}
+	.footer-left-menu ul li{
+    float: none;
+    padding:0;
+    text-align: left;
+	}
+	.footer-right-link {
+	margin:0 auto;
+    //padding-top: 12px;
+    text-align: center;
+	}
+	.footer-right-link h4{
+		margin: 0;
+		text-align: center;
+		padding: 8px;
+	}
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 320px) and (max-width: 480px) { 
+/*********  Menu ************/
+	.logo {
+       position: absolute;
+	    right: 10px;
+	    margin-top: -8px;
+	    z-index: 99;
+	}
+	.logo img {
+	    height: 80px;
+	    width: 73px;
+	    background-image: url('../images/logomob.jpg')
+	}
+	.menuInner {
+    padding: 10px 4px;
+	}
+	.menu-toggle{
+		height: auto;
+	}
+	.menu-toggle ul {
+    list-style: outside none none;
+    margin: 0;
+	}
+	.menu-toggle ul li {
+    display:block;
+    padding:3px 0px;
+	}
+	.menu-toggle ul li a{
+    padding: 0px 3px;
+   }
+   .menu-toggle ul li a.active{
+    padding: 0px 3px;
+    color: $blue-1!important;
+   }
+   .menu-toggle ul li:nth-last-child(2), .menu-toggle ul li:last-child {
+    margin-left: 3px;
+    padding-right: 0;
+	}
+	/********BANNER TOP************/
+	.bannerArea-img{
+    background-position: 50% 50%;
+    
+	}
+	.banner-text-box{
+	    margin-top: -50px;
+	    margin-left: 40px;
+	    margin-bottom: 50px;
+	}
+	
+	.banner-text-box-data{
+	    padding: 20px!important;
+	   position:relative;
+	   margin-top: -$mspace;
+	}
+	.bmw-motorrad-logo {
+    margin-top: 40px;
+	}
+	.banner-text-box-data p,.faq-text-box-data p{
+		line-height: 20px;
+    font-size: 16px;
+	}
+	/*********PROZESS*************/
+	.bmw-motorrad{
+    margin-top: $mspace;
+    margin-left: 40px;
+	}
+	.bmw-prozess {
+    margin: $mspace 0;
+	}
+	.height-dTop {
+    height: $mspace;
+	}
+	
+	.bmw-prozess-box a:active,.bmw-prozess-box a:visited,.bmw-prozess-box a:link {
+    padding: 10px 4px;
+    font-size: 14px!important;
+    color:$white-1;
+    border: none;
+     background-color:$grey-1;
+    text-decoration: none;
+	}
+	.bmw-prozess-box a:hover{
+		background-color:$grey-2;
+         font-family:'Arial Regular';font-size: 16px;
+	    font-size: 14px!important;
+	    color: #FFFFFF;
+	    border: none;
+	    padding: 10px 4px;
+	    text-decoration: none;
+	}
+	/**********FAQ***************/
+	.faqPanel{
+		    height: auto;
+		    width: 100%;
+		    position:relative;
+		}
+	.faq-text-box {
+	    margin-left: 60px;
+
+	}
+	.faq-text-box-data{
+		     background: #fff none repeat scroll 0 0;
+		    box-shadow: 0px 0px 8px #a69d90;
+		    padding: $spacehalf;
+		    position: absolute;
+		    position: absolute;
+		    right:0;
+		    bottom: $space;
+	}
+	.faqSection {
+    margin:$mspace 0;
+	}
+	.faqSection-box h2{
+    font-size: 22px;
+    line-height: 26px;
+	}
+	.banner-text-box-data h2,.faq-text-box-data h2,.bmw-prozess-box h2,.downloadPostArea h2,
+	.modal-header h2,.modal-footer h2{
+		font-size: 22px;
+	    line-height: 26px;
+	}
+
+	.faq_question h1 {
+	    width: 88%;
+	}
+	.faq_answer {
+	    padding: 0 30px 0 0;
+	}
+
+	/****************MODAL**********************/
+	.ImpressumClose, .HaftungsausschlussClose, .DatenschutzClose {
+    font-size: 30px;
+    line-height: 34px;
+    padding-right: 0px;
+    border: none;
+    margin-top: -28px;
+	}
+	.ImpressumClose:hover,.ImpressumClose:focus,
+	.HaftungsausschlussClose:hover,.HaftungsausschlussClose:focus,
+	.DatenschutzClose:hover,.DatenschutzClose:focus
+	 {
+	    padding-right: 0px;
+	}
+	
+	/****************FOOTER***********************/
+	.footer-left-menu{
+		text-align: center;
+	}
+	.footer-left-menu ul {
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+	}
+	.footer-left-menu ul li{
+    float: none;
+    padding:0;
+    text-align: left;
+	}
+	.footer-left-menu li {
+	    font-size: 16px;
+	    line-height: 22px;
+	}
+	.footer-right-link {
+	margin:0 auto;
+   // padding-top: 12px;
+    text-align: center;
+	}
+	.footer-right-link h4{
+		margin: 0;
+		text-align: center;
+		padding: 8px;
+	}
+}
